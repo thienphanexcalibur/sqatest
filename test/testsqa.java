@@ -52,8 +52,9 @@ public class testsqa {
     public void test1() {
         int a[] = {1, 2, 3};
         int n = 3;
-        int expectedOutput = 6;
-        Assert.assertEquals(new Sqa().sum(a, n), 2);
+        int expectedOutput = 2;
+        int input = new Sqa().sum(a,n);
+        Assert.assertEquals(input, expectedOutput);
     }
 
     @Test
